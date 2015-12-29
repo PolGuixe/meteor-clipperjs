@@ -1,4 +1,4 @@
-#ClipperJs library wrapped for Meteor
+# ClipperJs library wrapped for Meteor
 
 This is a simple Meteor package for including Three.js in a Meteor project using the Meteor package manager.
 
