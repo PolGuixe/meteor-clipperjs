@@ -1,6 +1,6 @@
 Package.describe({
   name: 'polguixe:meteor-clipperjs',
-  version: '6.1.3_1',
+  version: '6.1.3_2',
   // Brief, one-line summary of the package.
   summary: 'ClipperJs library wrapped for Meteor',
   // URL to the Git repository containing the source code for this package.
@@ -15,6 +15,6 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
 
   //Main Library
-  api.addFiles('lib/clipper_unminified.js');
+  api.addFiles('lib/clipper_unminified.js','client');
   api.export('ClipperLib');
 });
